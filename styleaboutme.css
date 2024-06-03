@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    font-family: 'Noto sans', sans-serif;
+
+}
+
+.main-about{
+    width: 100vw;
+    height: 100vh;
+}
+
+nav{
+    flex-direction: row;
+    background: #000;
+    padding: 15px;
+}
+
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.main-about-me{
+    background: #fff;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+img {
+
+    width: 700px;
+    height:80%;
+    padding-right: 10%;
+    padding-bottom: 6%;
+    object-fit: cover;
+}
+
+.text-about-me{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-about-me h1{
+    color: #000;
+    font-size: 40px;
+    margin: 0 0 15px 30px;
+}
+
+h3{
+    color: #000;
+    font-size: 25px;
+    margin: 0 0 15px 30px;
+}
+
+h3 span{
+    color: rgb(223, 3, 40);   
+}
+
+p{
+    color: #000;
+    font-size: 20px; 
+    margin: 20px 0 85px 30px;
+}
+
+.contato{
+    display: flex;
+    margin: 110px 0 0 30px;
+}
+
+.contato a{
+    color: #000;
+}
+
